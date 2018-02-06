@@ -14,20 +14,26 @@ import { Component, OnInit } from '@angular/core';
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">HOME</a>
-            <a class="mdl-navigation__link" href="">CARS</a>
+            <a class="mdl-navigation__link" href="">INICIO</a>
+            <a class="mdl-navigation__link" href="">CARROS</a>
             <a class="mdl-navigation__link" href="">SPONSORS</a>
-            <a class="mdl-navigation__link" href="">HISTORY</a>
+            <a class="mdl-navigation__link" href="">HISTORIA</a>
+            <mat-form-field>
+              <mat-select [(value)]="option1" [ngClass]="'dropdown'" placeholder="ES">
+                <mat-option value="option1">ES</mat-option>
+                <mat-option value="option2">EN</mat-option>
+              </mat-select>
+            </mat-form-field>
           </nav>
         </div>
       </header>
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">Title</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">HOME</a>
-          <a class="mdl-navigation__link" href="">CARS</a>
+          <a class="mdl-navigation__link" href="">INICIO</a>
+          <a class="mdl-navigation__link" href="">CARROS</a>
           <a class="mdl-navigation__link" href="">SPONSORS</a>
-          <a class="mdl-navigation__link" href="">HISTORY</a>
+          <a class="mdl-navigation__link" href="">HISTORIA</a>
         </nav>
       </div>
       <main class="mdl-layout__content">
