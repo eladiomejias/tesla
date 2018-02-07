@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
             <a class="mdl-navigation__link" href="">SPONSORS</a>
             <a class="mdl-navigation__link" href="">HISTORIA</a>
             <mat-form-field>
-              <mat-select [(value)]="option1" [ngClass]="'dropdown'" placeholder="ES">
+              <mat-select [(value)]="option1">
                 <mat-option value="option1">ES</mat-option>
                 <mat-option value="option2">EN</mat-option>
               </mat-select>
