@@ -28,7 +28,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </header>
       <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Title</span>
+        <span class="mdl-layout-title">TESLA</span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="">INICIO</a>
           <a class="mdl-navigation__link" href="">CARROS</a>

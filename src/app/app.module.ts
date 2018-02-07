@@ -41,12 +41,14 @@ import {
   MatTooltipModule,
   MatStepperModule,
 } from '@angular/material';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
