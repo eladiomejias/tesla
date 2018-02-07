@@ -35,3 +35,7 @@ header .mat-select-value{
 .mdl-card .mdl-tesla-text{
   color: rgb(227, 45, 45);
 }
+
+.normal-text{
+  margin: 0 auto;
+}
