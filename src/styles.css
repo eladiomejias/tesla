@@ -39,3 +39,28 @@ header .mat-select-value{
 .normal-text{
   margin: 0 auto;
 }
+
+.small-text{
+  font-size: 0.72em;
+  color: gray;
+  font-weight: 400;
+}
+
+.card-hour-text{
+  font-weight: 400;
+  font-weight: .8em;
+}
+
+.card-extra-text{
+  font-weight: 400;
+  font-size: .62em;
+  color: gray;
+}
+
+.card-date-text{
+  font-size: 1.5em;
+}
+
+.card-meaning-text{
+  font-size: 0.8em;
+}
