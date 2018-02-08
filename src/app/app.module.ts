@@ -42,13 +42,15 @@ import {
   MatStepperModule,
 } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
+import { HistoryComponent } from './history/history.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,
