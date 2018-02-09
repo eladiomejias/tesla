@@ -1,0 +1,36 @@
+#hero-section{
+  position: relative;
+  background: black;
+  height: 30vh;
+  color: white;
+  background: url("../../assets/img/header.jpg");
+  background-size: cover;
+  background-position: 40% 50%;
+}
+
+#overlay{
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+#heading{
+  position: relative;
+  font-weight: 300;
+  padding-left: 30px;
+  top: 50px;
+}
+
+#heading::before{
+  content: '';
+  display: block;
+  margin-top: 10px;
+  position: relative;
+  width: 120px;
+  height: 3px;
+  top: 80px;
+  background: #e4060d;
+}

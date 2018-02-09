@@ -8,6 +8,9 @@ import { HeaderComponent } from './header/header.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
+import { Router } from '@angular/router';
+import { Routing } from "./app.route";
+
 import {
   MatAutocompleteModule,
   MatButtonModule,
@@ -43,6 +46,7 @@ import {
 } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
 import { HistoryComponent } from './history/history.component';
+import { IndexComponent } from './index/index.component';
 
 
 @NgModule({
@@ -50,7 +54,8 @@ import { HistoryComponent } from './history/history.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HistoryComponent
+    HistoryComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
@@ -86,7 +91,8 @@ import { HistoryComponent } from './history/history.component';
     MatTooltipModule,
     MatStepperModule,
     BrowserAnimationsModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    Routing
   ],
   providers: [],
   bootstrap: [AppComponent]

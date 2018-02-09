@@ -14,10 +14,10 @@ import { Component, OnInit } from '@angular/core';
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" href="">INICIO</a>
-            <a class="mdl-navigation__link" href="">CARROS</a>
-            <a class="mdl-navigation__link" href="">NOTICIAS</a>
-            <a class="mdl-navigation__link" href="">HISTORIA</a>
+            <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" [routerLink]="['']" href="">INICIO</a>
+            <a class="mdl-navigation__link" href="" [routerLink]="['cars']">CARROS</a>
+            <a class="mdl-navigation__link" href="" [routerLink]="['news']" >NOTICIAS</a>
+            <a class="mdl-navigation__link" href="" [routerLink]="['history']">HISTORIA</a>
             <mat-form-field>
               <mat-select [(value)]="option1">
                 <mat-option value="option1">ES</mat-option>
