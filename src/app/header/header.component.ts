@@ -30,10 +30,10 @@ import { Component, OnInit } from '@angular/core';
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">TESLA MOTORS</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" href="">INICIO</a>
-          <a class="mdl-navigation__link" href="">CARROS</a>
-          <a class="mdl-navigation__link" href="">NOTICIAS</a>
-          <a class="mdl-navigation__link" href="">HISTORIA</a>
+          <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" [routerLink]="['']" href="">INICIO</a>
+          <a class="mdl-navigation__link" href="" [routerLink]="['']">CARROS</a>
+          <a class="mdl-navigation__link" href="" [routerLink]="['']">NOTICIAS</a>
+          <a class="mdl-navigation__link" href="" [routerLink]="['history']">HISTORIA</a>
         </nav>
       </div>
       <main class="mdl-layout__content">
