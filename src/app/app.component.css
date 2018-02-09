@@ -87,6 +87,7 @@ main, .mdl-layout__content{
   font-weight: 400;
   line-height: 1.4em;
   color: #222;
+  padding: 10px;
 }
 
 section, div{

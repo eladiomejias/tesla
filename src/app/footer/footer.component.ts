@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
       <ul class="mdl-mini-footer__link-list">
         <li><a href="#">Ayuda</a></li>
         <li><a href="#">Terminos & Privacidad</a></li>
+        <li><a href="#">Inicio</a></li>
       </ul>
     </div>
   </footer>
@@ -16,6 +17,8 @@ import { Component, OnInit } from '@angular/core';
   styles: ['']
 })
 export class FooterComponent implements OnInit {
+
+  title = "footer";
 
   constructor() { }
 

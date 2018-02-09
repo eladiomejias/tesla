@@ -15,9 +15,14 @@ header .mat-select-value{
   color: white !important;
 }
 
-.mdl-layout__header-row .mdl-navigation__link {
+.mdl-layout__header-row .mdl-navigation__link, .mdl-layout-title {
     color: #ccc;
     transition: all 0.3s ease-in-out;
+}
+
+.mdl-layout-title{
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
 .mdl-layout__header-row .mdl-navigation__link:hover {
@@ -63,4 +68,50 @@ header .mat-select-value{
 
 .card-meaning-text{
   font-size: 0.8em;
+}
+
+.mdl-layout__drawer-button{
+  color: rgba(255, 0, 0, 0.6);
+}
+
+.mdl-layout__drawer{
+  background: #222 !important;
+  border-color:black !important;
+  color: white;
+}
+
+::selection{
+  background: #eee;
+  color: #222;
+}
+
+.mdl-layout__drawer a{
+  color: rgba(255,255,255,0.6) !important;
+  font-weight: 400 !important;
+  font-size: 0.95em !important;
+  transition: all 0.2s ease;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.3);
+}
+
+
+.mdl-layout__drawer a:last-child{
+  border-bottom: 0px solid;
+}
+
+
+.mdl-layout__drawer a:hover{
+  color: rgba(255,255,255,0.8) !important;
+  background: #111 !important;
+  color: rgba(255,255,255,0.7);
+  border-color: rgba(255, 0, 0, 0.6);
+}
+
+.mdl-layout__drawer span{
+  color: rgba(255,255,255,0.6) !important;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.active{
+  background: black !important;
 }

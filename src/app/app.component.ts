@@ -12,4 +12,5 @@ export class AppComponent {
   title = 'app';
   nombre = " Cristhian";
   name = "hello";
+  actived = 'active-1';
 }

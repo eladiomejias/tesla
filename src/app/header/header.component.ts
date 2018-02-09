@@ -14,9 +14,9 @@ import { Component, OnInit } from '@angular/core';
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">INICIO</a>
+            <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" href="">INICIO</a>
             <a class="mdl-navigation__link" href="">CARROS</a>
-            <a class="mdl-navigation__link" href="">SPONSORS</a>
+            <a class="mdl-navigation__link" href="">NOTICIAS</a>
             <a class="mdl-navigation__link" href="">HISTORIA</a>
             <mat-form-field>
               <mat-select [(value)]="option1">
@@ -28,11 +28,11 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </header>
       <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">TESLA</span>
+        <span class="mdl-layout-title">TESLA MOTORS</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">INICIO</a>
+          <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" href="">INICIO</a>
           <a class="mdl-navigation__link" href="">CARROS</a>
-          <a class="mdl-navigation__link" href="">SPONSORS</a>
+          <a class="mdl-navigation__link" href="">NOTICIAS</a>
           <a class="mdl-navigation__link" href="">HISTORIA</a>
         </nav>
       </div>
@@ -47,10 +47,12 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   option1 = 1;
-  
+
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+
+console.log(window.location.href);
