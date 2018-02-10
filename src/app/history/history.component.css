@@ -134,3 +134,7 @@ section, div{
   margin: 0 auto;
   margin-bottom: 50px;
 }
+
+.minimal-text span{
+  color: #555;
+}
