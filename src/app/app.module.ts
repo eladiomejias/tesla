@@ -47,6 +47,8 @@ import {
 import { FooterComponent } from './footer/footer.component';
 import { HistoryComponent } from './history/history.component';
 import { IndexComponent } from './index/index.component';
+import { ModelsComponent } from './models/models.component';
+import { NewsComponent } from './news/news.component';
 
 
 @NgModule({
@@ -55,7 +57,9 @@ import { IndexComponent } from './index/index.component';
     HeaderComponent,
     FooterComponent,
     HistoryComponent,
-    IndexComponent
+    IndexComponent,
+    ModelsComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

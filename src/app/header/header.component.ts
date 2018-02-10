@@ -15,7 +15,7 @@ import { Component, OnInit } from '@angular/core';
           <!-- Navigation -->
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" [routerLink]="['']" href="">INICIO</a>
-            <a class="mdl-navigation__link" href="" [routerLink]="['cars']">CARROS</a>
+            <a class="mdl-navigation__link" href="" [routerLink]="['models']">MODELOS</a>
             <a class="mdl-navigation__link" href="" [routerLink]="['news']" >NOTICIAS</a>
             <a class="mdl-navigation__link" href="" [routerLink]="['history']">HISTORIA</a>
             <mat-form-field>
@@ -31,8 +31,8 @@ import { Component, OnInit } from '@angular/core';
         <span class="mdl-layout-title">TESLA MOTORS</span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" [routerLink]="['']" href="">INICIO</a>
-          <a class="mdl-navigation__link" href="" [routerLink]="['']">CARROS</a>
-          <a class="mdl-navigation__link" href="" [routerLink]="['']">NOTICIAS</a>
+          <a class="mdl-navigation__link" href="" [routerLink]="['models']">MODELOS</a>
+          <a class="mdl-navigation__link" href="" [routerLink]="['news']">NOTICIAS</a>
           <a class="mdl-navigation__link" href="" [routerLink]="['history']">HISTORIA</a>
         </nav>
       </div>
