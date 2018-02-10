@@ -123,3 +123,14 @@ section, div{
   padding: 80px;
   box-shadow: 0 0 2px 0 rgba(46,62,72,.12), 0 2px 4px 0 rgba(46,62,72,.12);
 }
+
+.round{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.round-block{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}

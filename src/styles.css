@@ -115,3 +115,9 @@ header .mat-select-value{
 .active{
   background: black !important;
 }
+
+.card-shadow{
+  box-shadow: 0 2px 24px 0 rgba(0,0,0,.06);
+  display: block;
+  margin: 0 auto;
+}
