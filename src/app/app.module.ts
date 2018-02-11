@@ -6,10 +6,13 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 import { Router } from '@angular/router';
 import { Routing } from "./app.route";
+
+import { HttpModule } from '@angular/http';
+import { UserService } from './news/user.service';
+
 
 import {
   MatAutocompleteModule,
@@ -42,7 +45,7 @@ import {
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule,
-  MatStepperModule,
+  MatStepperModule
 } from '@angular/material';
 import { FooterComponent } from './footer/footer.component';
 import { HistoryComponent } from './history/history.component';
@@ -95,8 +98,8 @@ import { NewsComponent } from './news/news.component';
     MatTooltipModule,
     MatStepperModule,
     BrowserAnimationsModule,
-    NoopAnimationsModule,
-    Routing
+    Routing,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
