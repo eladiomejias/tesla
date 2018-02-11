@@ -22,13 +22,14 @@ import { userData } from "./user.json";
           <mat-card-title>{{ user.name }} {{ user.second_name }}</mat-card-title>
           <mat-card-subtitle>{{ user.title }}</mat-card-subtitle>
         </mat-card-header>
-        <img mat-card-image [src]="user.card_img" alt="">
+        <img mat-card-image [src]="user.card_img" alt="user-img">
         <mat-card-content>
           <h5 class="card-content-title">{{ user.card_title }}</h5>
           <p>
             The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
             A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
             bred for hunting.
+            <br><br>
             {{ user.description }}
           </p>
         </mat-card-content>
@@ -74,18 +75,18 @@ export class NewsComponent implements OnInit{
           "profile_img": "../../assets/img/user/nick.png",
           "card_img": "../../assets/img/user/cover3.jpg",
           "card_title": "¿Conoces al Starman de Tesla?",
-          "title": "Tesla Thinks.",
+          "title": "Electric Engineer / Manager",
           "description": "Lorem ipsum",
           "age" : "23",
           "gender" : "male"
       },
       {
-          "name" : "Edd",
-          "second_name": "William",
-          "profile_img": "../../assets/img/user/nick.png",
+          "name" : "Rob",
+          "second_name": "Robson",
+          "profile_img": "../../assets/img/user/rob.jpg",
           "card_img": "../../assets/img/user/cover4.jpg",
           "card_title": "Creando el cambio.",
-          "title": "Electric Engineer",
+          "title": "Production Director",
           "description": "Lorem ipsum",
           "age" : "23",
           "gender" : "female"
@@ -114,8 +115,6 @@ export class NewsComponent implements OnInit{
       }
   ];
 
-
   constructor() {}
-
 
 }
