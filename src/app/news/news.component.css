@@ -1,0 +1,43 @@
+#hero-section-news{
+  position: relative;
+  background: black;
+  height: 30vh;
+  color: white;
+  background-position: 40% 50%;
+  background: black;
+}
+
+#overlay{
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+
+#heading-news{
+  position: relative;
+  font-weight: 300;
+  padding-left: 30px;
+  top: 50px;
+}
+
+#heading-news::before{
+  content: '';
+  display: block;
+  margin-top: 10px;
+  position: relative;
+  width: 120px;
+  height: 3px;
+  top: 80px;
+  background: #e4060d;
+}
+
+
+.red-divider{
+  height: 4px;
+  width: 100%;
+  background: #e4060d;
+}
