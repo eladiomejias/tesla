@@ -5,6 +5,7 @@ userData = [
     "profile_img": "../../assets/img/user/jason.png",
     "card_img": "../../assets/img/user/cover1.jpg",
     "title": "Tesla Enviroment",
+    "card_title": "News!",
     "description": "Lorem ipsum",
     "age" : "24",
     "gender" : "male"
@@ -13,8 +14,9 @@ userData = [
     "name" : "Kyle",
     "second_name": "Jack",
     "profile_img": "../../assets/img/user/jack.png",
-    "card_img": "../../assets/img/user/cover1.jpg",
+    "card_img": "../../assets/img/user/cover2.jpg",
     "title": "Tesla Production",
+    "card_title": "Starman, in SpaceX",
     "description": "Lorem ipsum",
     "age" : "24",
     "gender" : "male"
@@ -25,6 +27,7 @@ userData = [
     "profile_img": "../../assets/img/user/nick.png",
     "card_img": "../../assets/img/user/cover1.jpg",
     "title": "Tesla Thinks",
+    "card_title": "MODEL S - NEW COLOR",
     "description": "Lorem ipsum",
     "age" : "23",
     "gender" : "male"
