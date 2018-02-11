@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { UserService } from "./user.service";
 import { Http } from '@angular/http';
-import { USER } from "./user_interface.ts";
 
+/*
 import { userData } from "./user.json";
+*/
 
 @Component({
   selector: 'app-news',
@@ -26,17 +26,14 @@ import { userData } from "./user.json";
         <mat-card-content>
           <h5 class="card-content-title">{{ user.card_title }}</h5>
           <p>
-            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-            bred for hunting.
-            <br><br>
             {{ user.description }}
           </p>
         </mat-card-content>
         <mat-divider></mat-divider>
         <mat-card-actions>
-          <button mat-button>ME GUSTA</button>
-          <button mat-button>COMPARTIR</button>
+          <button mat-button matTooltip="Agregar">ME GUSTA</button>
+          <button mat-button matTooltip="Comentar">COMENTAR</button>
+          <button mat-mini-fab class="icon-news"><mat-icon>share</mat-icon></button>
         </mat-card-actions>
       </mat-card>
     </div>
@@ -54,7 +51,7 @@ export class NewsComponent implements OnInit{
           "card_img": "../../assets/img/user/cover1.jpg",
           "title": "Tesla Enviroment",
           "card_title": "Tesla, Inc. El futuro.",
-          "description": "Lorem ipsum",
+          "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "24",
           "gender" : "male"
       },
@@ -65,7 +62,7 @@ export class NewsComponent implements OnInit{
           "card_img": "../../assets/img/user/cover2.jpg",
           "card_title": "Velocidad con modelo S.",
           "title": "Tesla Production",
-          "description": "Lorem ipsum",
+          "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "24",
           "gender" : "male"
       },
@@ -76,7 +73,7 @@ export class NewsComponent implements OnInit{
           "card_img": "../../assets/img/user/cover3.jpg",
           "card_title": "¿Conoces al Starman de Tesla?",
           "title": "Electric Engineer / Manager",
-          "description": "Lorem ipsum",
+          "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "23",
           "gender" : "male"
       },
@@ -87,7 +84,7 @@ export class NewsComponent implements OnInit{
           "card_img": "../../assets/img/user/cover4.jpg",
           "card_title": "Creando el cambio.",
           "title": "Production Director",
-          "description": "Lorem ipsum",
+          "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "23",
           "gender" : "female"
       },
@@ -98,7 +95,7 @@ export class NewsComponent implements OnInit{
           "card_img": "../../assets/img/user/cover5.jpg",
           "card_title": "Guía de usuario.",
           "title": "Internal Creator",
-          "description": "Lorem ipsum",
+          "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "23",
           "gender" : "male"
       },
@@ -109,12 +106,16 @@ export class NewsComponent implements OnInit{
           "card_img": "../../assets/img/user/cover6.jpg",
           "card_title": "El proceso creativo.",
           "title": "Process Observer",
-          "description": "Lorem Ipsum.",
+          "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "23",
           "gender" : "female"
       }
   ];
 
   constructor() {}
+
+  ngOnInit() {
+  }
+
 
 }

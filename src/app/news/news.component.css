@@ -59,3 +59,9 @@
 }
 
 .mat-card-title{margin-bottom: 10px;}
+
+.icon-news {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+}

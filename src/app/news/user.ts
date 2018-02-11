@@ -8,7 +8,7 @@ export class User {
     title: string;
     description: string;
     age: string;
-    gender: male;
+    gender: string;
 
     constructor(name: string, second_name: string, profile_img: string, card_img: string, title: string, description: string, age: string, gender: string) {
         this.name = name;
