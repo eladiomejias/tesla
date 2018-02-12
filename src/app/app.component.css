@@ -114,7 +114,6 @@ section, div{
   border-radius: 50%;
   box-shadow: 0 2px 24px 0 rgba(0,0,0,.06);
   z-index: 1;
-
 }
 
 .heading-100{
@@ -144,7 +143,6 @@ section, div{
 
 .card-text{
   font-size: 0.9em;
-  /* text-align: justify; */
   font-weight: 400;
   line-height: 1.4em;
   color: #222222bf;
@@ -164,19 +162,6 @@ section, div{
     background: url('../assets/img/Fabric.jpg') center / cover !important;
 }
 
-.demo-card-square h2{
-  width: 100%;
-  background: #000000b8;
-  padding-left: 0px;
-  padding: 5px;
-  margin-left: 0px;
-}
-
-.giant-card{
-  background: white;
-  padding: 80px;
-  box-shadow: 0 0 2px 0 rgba(46,62,72,.12), 0 2px 4px 0 rgba(46,62,72,.12);
-}
 
 .model-car{
   width: 100%;
@@ -185,23 +170,6 @@ section, div{
 
 .box-shadow{
   box-shadow: 0 0 2px 0 rgba(46,62,72,.12), 0 2px 4px 0 rgba(46,62,72,.12);
-}
-
-.weird{
-  padding-top: 50px;
-}
-
-.mdl-layout__header-row a{
-  color: rgb(168, 168, 168) !important;
-}
-
-.mdl-layout__header-row a:hover{
-  color: white;
-}
-
-.dropdown{
-  color: white;
-  background: white;
 }
 
 .associated{

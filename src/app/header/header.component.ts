@@ -42,7 +42,7 @@ import { Component, OnInit } from '@angular/core';
     </div>
 
   `,
-  styles: ['header { background: rgba(0,0,0,.87); } .tesla_title{ font-weight: 500; font-size: 1.2em; letter-spacing: 11px; } .mdl-layout__drawer-button { color: white !important; }']
+  styles: ['header { background: rgba(0,0,0,.97); } .tesla_title{ font-weight: 500; font-size: 1.2em; letter-spacing: 11px; } .mdl-layout__drawer-button { color: white !important; }']
 })
 export class HeaderComponent implements OnInit {
 

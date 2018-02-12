@@ -1,10 +1,10 @@
 #hero-section-news{
   position: relative;
-  background: black;
   height: 30vh;
   color: white;
-  background-position: 40% 50%;
   background: black;
+  background: url("../../assets/img/TeslaRoadster.jpg");
+  background-size: cover;
 }
 
 #overlay{
@@ -64,4 +64,8 @@
   position: absolute;
   right: -10px;
   bottom: -10px;
+}
+
+.mdl-grid{
+  background: #eaeaea;
 }

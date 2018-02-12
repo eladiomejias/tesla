@@ -1,13 +1,14 @@
 .models-cell{
   min-height: 400px;
   background-size: cover !important;
+  background-position: 50% 50% !important;
   position: relative;
   border-radius: 5px;
 }
 
 .models-cell::before{
   content: '';
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.6);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -17,24 +18,61 @@
 
 #roadster{
   background: gray;
-  background: url("../../assets/img/tesla_roadster.jpg");
+  background: url("../../assets/img/tesla_roadster_2020.jpg");
+}
+
+#model-3{
+    background: gray;
+    background: url("../../assets/img/tesla_model_3.jpg");
+}
+
+#semi{
+  background: gray;
+  background: url("../../assets/img/tesla_semi.jpg");
 }
 
 #model-s{
-    background: gray;
-    background: url("../../assets/img/tesla_model_s.jpg");
+  background: gray;
+  background: url("../../assets/img/TeslaModel-S.jpg");
+}
+
+#model-x{
+  background: gray;
+  background: url("../../assets/img/tesla_model_x.jpg");
 }
 
 .models-bg{
-  background: #f5f5f5;
+  background: #0f0f0f;
 }
 
 .headline{
-  color: white;
+  color: rgba(255,255,255,0.8);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
   font-weight: 100;
+}
+
+.content-data{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background: rgba(0,0,0,0.3);
+  bottom: 0;
+}
+
+.data-relative{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  left: 10px;
+}
+
+.button{
+  background: rgba(0,0,0,0.6);
+  color: white;
+  margin: 0 auto;
+  top: 8px;
 }
