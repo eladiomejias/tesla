@@ -5,11 +5,15 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <footer class="mdl-mini-footer">
     <div class="mdl-mini-footer__left-section">
-      <div class="mdl-logo">Tesla Motors</div>
+      <div class="mdl-logo">Tesla Motors Inc.</div>
       <ul class="mdl-mini-footer__link-list">
-        <li><a href="#">Ayuda</a></li>
-        <li><a href="#">Terminos & Privacidad</a></li>
         <li><a href="#">Inicio</a></li>
+        <li><a href="#">Compra</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Modelos</a></li>
+        <li><a href="#">Historia</a></li>
+        <li><a href="#">Marca</a></li>
+
       </ul>
     </div>
   </footer>

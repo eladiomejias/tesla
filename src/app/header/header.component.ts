@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title">TESLA MOTORS</span>
+          <span class="mdl-layout-title">TESLA MOTORS INC.</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
@@ -28,7 +28,7 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </header>
       <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">TESLA MOTORS</span>
+        <span class="mdl-layout-title">TESLA MOTORS INC.</span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" [routerLink]="['']" href="">INICIO</a>
           <a class="mdl-navigation__link" href="" [routerLink]="['models']">MODELOS</a>
