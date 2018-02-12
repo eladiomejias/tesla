@@ -18,11 +18,41 @@
     "CONTENT-9": "En junio de 2009 el Departamento de Energía de Estados Unidos aprobó la entrega de un préstamo de 465 millones de dólares, que formaba parte de un programa de 8000 millones de dólares para tecnologías avanzadas para vehículos. El préstamo de bajo interés formaba parte del programa Advanced Technology Vehicles Manufacturing Loan Program (ATVM), creado en 2007 durante el mandato de George W. Bush para potenciar los vehículos más eficientes y reducir la dependencia del petróleo extranjero.​ Este dinero supuso el salvamento de Tesla Motors. El préstamo iba dirigido a la ingeniería y producción del Model S y al desarrollo de tecnología eléctrica que Tesla vende a otros fabricantes.​ En septiembre de 2009 Tesla anunció otra ronda de financiación de 82,5 millones de dólares en la que invirtieron Daimler AG, Fjord Capital Partners, Aabar entre otros. Fue la primera ronda de financiación en la que Elon Musk no contribuyó. Hasta la fecha se habían invertido un total de 783,5 millones de dólares en la compañía.​ ",
     "CONTENT-10": "El 11 de julio Tesla Motors firmó un contrato de producción con Lotus Cars para producir gliders (coches completos sin baterías, motor ni componentes eléctricos de propulsión) para Tesla. El contrato de producción se prorrogó para mantener el Roadster en producción hasta diciembre de 2011 con un número mínimo de 2400 unidades."
   },
+  "INDEX": {
+    "TITLE_1": "Proposito",
+    "TITLE_2": "Primeros años",
+    "TITLE_3": "Eventos",
+    "TITLE_4": "Asociados",
+    "CONTENT_1": "El núcleo de la compañía está en la ingeniería del sistema de propulsión del vehículo eléctrico que incluye: paquete de baterías, motor, electrónica de potencia, caja de cambios y software de control que permite que todos los componentes formen un sistema. ",
+    "CONTENT_2": "El diseño modular permite reutilizar componentes en diferentes modelos de Tesla y de otros fabricantes. El sistema es muy compacto y contiene muchas menos piezas móviles que un motor térmico.​ Tesla Motors usa motores de inducción de tres fases que incorporan un rotor de cobre y unos devanados de cobre optimizados para reducir la resistencia y la pérdida de energía. ",
+    "CONTENT_3": "Tesla desarrolló patentes fundamentales para su fabricación.​ La electrónica de potencia gobierna el flujo de corriente de entrada y salida del paquete de baterías. Controla la generación de par motor durante la conducción y la recarga del paquete de baterías cuando está conectado a un enchufe.​",
+    "CONTENT_4": "Tesla Motors diseñó cajas de cambio de una marcha para el Roadster y para el Model S. Combinan un peso bajo con una alta eficiencia para adecuarse a la velocidad y par motor de los motores de inducción de corriente alterna. Se fabrican en la planta de Tesla. Los vehículos eléctricos contienen muchos procesadores para controlar funciones de seguridad y potencia. Tesla Motors construye el firmware de muchos procesadores con algoritmos que controlan la tracción, la estabilidad del vehículo, la aceleración, el freno regenerativo, el estado de carga de cada célula del paquete de baterías y los sistemas de seguridad.",
+    "CONTENT_5": "Tesla Motors realiza el diseño y la ingeniería de carrocería, chasis, interiores, sistemas de calefacción y aire acondicionado. Algunos subsistemas de un automóvil tradicional deben ser rediseñados en un vehículo eléctrico. Por ejemplo, Tesla Motors rediseñó el sistema de climatización para integrarlo con el sistema de gestión de temperatura del paquete de baterías.",
+    "CONTENT_6": "Al 31 de diciembre de 2011 Tesla Motors tenía 59 patentes adjudicadas y otras 230 patentes pendientes de aprobación. Las patentes comenzarán a caducar en 2026. El 12 de junio de 2014 Tesla Motors liberó todas sus patentes.​ Los beneficios de Tesla Motors a 31 de diciembre fueron de 111,9 millones de dólares en 2009, 116,7 millones de dólares en 2010 y 204,2 millones de dólares en 2011.5​ Tesla Motors tuvo una pérdida neta en 2011 de 254,4 millones de dólares y una pérdida neta acumulada de 669,4 millones de dólares a 31 de diciembre de 2011.",
+    "CONTENT_7": "Tesla se fundó para acelerar la transición hacia el transporte sostenible. Para combatir el calentamiento global y las muertes por la contaminación debida al transporte Tesla en sus inicios redactó su «plan maestro» para influir en la industria desde su pequeñez y recursos limitados. Tenía tres puntos principales:",
+    "CONTENT_8": "1. Comenzar con un proyecto pequeño fabricando pocas unidades a un precio alto. Fue el Tesla Roadster. Demostró que se podía fabricar un coche eléctrico de altas prestaciones que desmontaba el mito de que los vehículos eléctricos eran lentos, pesados, feos y con poca autonomía. Tesla llegó a fabricar hasta 500 unidades al año. Tuvo un gran efecto en la industria y Bob Lutz, antiguo presidente de General Motors afirmó que el Tesla Roadster fue el responsable de que iniciaran el programa del Chevy Volt, que a su vez influyó en el programa del Nissan Leaf. ",
+    "CONTENT_9": "2. Fabricar un vehículo en mayor volumen de unidades y a un precio menos caro. El Tesla Model S demostró que podía competir con las grandes berlinas de lujo. Sobre la misma plataforma Tesla fabricó el Tesla Model X. ",
+    "CONTENT_10": "3. Vehículo producido en gran volumen y a un precio asequible. Los beneficios que obtuvo Tesla con los modelos anteriores le permitieron abordar el proyecto del Model 3.",
+    "CONTENT_11": "Tesla Motors realiza el ridiculo y la ingeniería de carrocería, chasis, interiores, sistemas de calefacción y aire acondicionado. Algunos subsistemas de un automóvil tradicional deben ser rediseñados en un vehículo eléctrico. Por ejemplo, Tesla Motors rediseñó el sistema de climatización para integrarlo con el sistema de gestión de temperatura del paquete de baterías."
+  },
+  "CARDS": {
+    "TITLE_1": "Tesla, Inc. El futuro.",
+    "TITLE_2": "Velocidad con modelo S.",
+    "TITLE_3": "¿Conoces al Starman de Tesla?",
+    "TITLE_4": "Creando el cambio.",
+    "TITLE_5": "Guía de usuario.",
+    "TITLE_6": "El proceso creativo"
+  },
+  "INDEX_CARDS": {
+    "TITLE_1": "Introducción Tesla",
+    "TITLE_2": "Conferencia Tesla Motors",
+    "TITLE_3": "Exposición Tesla"
+  },
   "NAVBAR": {
-    "ONE": "INICIO",
-    "TWO": "MODELOS",
-    "THREE": "CARROS",
-    "FOUR": "HISTORIA"
+    "ONE": "Inicio",
+    "TWO": "Modelos",
+    "THREE": "Noticias",
+    "FOUR": "Historia"
   },
   "FOOTER": {
     "ONE": "Inicio",
@@ -33,6 +63,10 @@
     "SIX": "Marca"
   },
   "EXTRAS": {
-    "BUTTON": "MAS INFORMACION"
+    "BUTTON": "MAS INFORMACION",
+    "BUTTON_2": "AGREGAR AL CALENDARIO",
+    "BUTTON_3": "ASISTIR AL EVENTO",
+    "BUTTON_4": "ME GUSTA",
+    "BUTTON_5": "COMPARTIR"
   }
 }

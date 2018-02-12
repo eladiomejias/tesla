@@ -11,7 +11,7 @@ import { userData } from "./user.json";
   <!-- Starting content from News-->
   <div class="mdl-grid" id="hero-section-news">
     <section id="overlay">
-      <h1 id="heading-news">Noticias</h1>
+      <h1 id="heading-news">{{ 'NAVBAR.THREE' | translate }}</h1>
     </section>
   </div>
   <div class="mdl-grid">
@@ -31,8 +31,8 @@ import { userData } from "./user.json";
         </mat-card-content>
         <mat-divider></mat-divider>
         <mat-card-actions>
-          <button mat-button matTooltip="Agregar">ME GUSTA</button>
-          <button mat-button matTooltip="Comentar">COMENTAR</button>
+          <button mat-button matTooltip="{{ 'EXTRAS.BUTTON_4' | translate }}">{{ 'EXTRAS.BUTTON_4' | translate }}</button>
+          <button mat-button matTooltip="{{ 'EXTRAS.BUTTON_5' | translate }}">{{ 'EXTRAS.BUTTON_5' | translate }}</button>
           <button mat-mini-fab class="icon-news"><mat-icon>share</mat-icon></button>
         </mat-card-actions>
       </mat-card>

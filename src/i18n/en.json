@@ -18,11 +18,41 @@
     "CONTENT-9": "In June 2009, the US Department of Energy approved the delivery of a $ 465 million loan, which was part of an $ 8 billion program for advanced vehicle technologies. The low-interest loan was part of the Advanced Technology Vehicles Manufacturing Loan Program (ATVM), created in 2007 during George W. Bush's term to boost the most efficient vehicles and reduce dependence on foreign oil. of Tesla Motors. The loan was aimed at the engineering and production of the Model S and the development of electrical technology that Tesla sells to other manufacturers In September 2009 Tesla announced another round of financing of 82.5 million dollars in which they invested Daimler AG, Fjord Capital Partners, Aabar among others. It was the first round of funding in which Elon Musk did not contribute. To date, a total of 783.5 million dollars had been invested in the company.",
     "CONTENT-10": "On July 11, Tesla Motors signed a production contract with Lotus Cars to produce gliders (complete cars without batteries, engine or electric propulsion components) for Tesla. The production contract was extended to keep the Roadster in production until December 2011 with a minimum number of 2,400 units."
   },
+  "INDEX": {
+    "TITLE_1": "Purpose",
+    "TITLE_2": "First years",
+    "TITLE_3": "Events",
+    "TITLE_4": "Associated",
+    "CONTENT_1": "The core of the company is in the engineering of the propulsion system of the electric vehicle that includes: battery pack, motor, power electronics, gearbox and control software that allows all components to form a system.",
+    "CONTENT_2": "The modular design allows to reuse components in different models of Tesla and other manufacturers. The system is very compact and contains far fewer moving parts than a heat engine Tesla Motors uses three-phase induction motors that incorporate a copper rotor and copper windings optimized to reduce resistance and loss of energy.",
+    "CONTENT_3": "Tesla developed fundamental patents for its manufacture, the power electronics governs the flow of input and output current from the battery pack. Controls the generation of torque during driving and recharging the battery pack when it is plugged into a socket.",
+    "CONTENT_4": "Tesla Motors designed one-gear gearboxes for the Roadster and the Model S. They combine low weight with high efficiency to match the speed and torque of the AC induction motors. At the Tesla plant, electric vehicles contain many processors to control safety and power functions Tesla Motors builds the firmware of many processors with algorithms that control traction, vehicle stability, acceleration, regenerative braking, the state of charge of each cell of the battery pack and security systems. ",
+    "CONTENT_5": "Tesla Motors performs the design and engineering of bodywork, chassis, interiors, heating and air conditioning systems.Some subsystems of a traditional car must be redesigned in an electric vehicle.For example, Tesla Motors redesigned the system air conditioning to integrate it with the temperature management system of the battery pack. ",
+    "CONTENT_6": "As of December 31, 2011, Tesla Motors had 59 patents awarded and another 230 patents pending approval, patents will expire in 2026. On June 12, 2014, Tesla Motors released all of its patents. Tesla Motors as of December 31 were 111.9 million dollars in 2009, 116.7 million dollars in 2010 and 204.2 million dollars in 2011.5 Tesla Motors had a net loss in 2011 of 254.4 million dollars and an accumulated net loss of 669.4 million dollars as of December 31, 2011. ",
+    "CONTENT_7": "Tesla was founded to accelerate the transition to sustainable transport To combat global warming and deaths due to pollution due to transport Tesla in the beginning drafted its master plan to influence the industry from its small size and limited resources.I had three main points: ",
+    "CONTENT_8": "1. Start with a small project producing few units at a high price, it was the Tesla Roadster, which showed that a high-performance electric car could be built that dismantled the myth that electric vehicles were slow, heavy, ugly and with little autonomy Tesla went on to manufacture up to 500 units a year, which had a great effect on the industry and Bob Lutz, former president of General Motors, stated that the Tesla Roadster was responsible for initiating the Chevy Volt program, which In turn, it influenced the Nissan Leaf program. ",
+    "CONTENT_9": "2. Manufacturing a vehicle in a larger volume of units and at a less expensive price The Tesla Model S proved that it could compete with the big luxury sedans On the same platform Tesla manufactured the Tesla Model X.",
+    "CONTENT_10": "3. Vehicle produced in great volume and at an affordable price. The benefits that Tesla obtained with the previous models allowed it to address the Model 3 project.",
+    "CONTENT_11": "Tesla Motors performs the ridiculous and engineered body, chassis, interiors, heating and air conditioning systems.Some subsystems of a traditional car must be redesigned in an electric vehicle.For example, Tesla Motors redesigned the system air conditioning to integrate it with the temperature management system of the battery pack. "
+  },
+  "INDEX_CARDS": {
+    "TITLE_1": "Tesla Introduction",
+    "TITLE_2": "Tesla Motors Conference",
+    "TITLE_3": "TESLA Exposition"
+  },
+  "CARDS": {
+    "TITLE_1": "Tesla, Inc. The future.",
+    "TITLE_2": "Velocity with S Model",
+    "TITLE_3": "What do you know about Starman?",
+    "TITLE_4": "Making the change",
+    "TITLE_5": "User Guide.",
+    "TITLE_6": "The creative process."
+  },
   "NAVBAR": {
-    "ONE": "INDEX",
-    "TWO": "MODELS",
-    "THREE": "CARS",
-    "FOUR": "HISTORY"
+    "ONE": "Index",
+    "TWO": "Models",
+    "THREE": "News",
+    "FOUR": "History"
   },
   "FOOTER": {
     "ONE": "Index",
@@ -33,6 +63,10 @@
     "SIX": "Our Brand"
   },
   "EXTRAS": {
-    "BUTTON": "MORE INFORMATION"
+    "BUTTON": "MORE INFORMATION",
+    "BUTTON_2": "ADD TO CALENDAR",
+    "BUTTON_3": "GO TO EVENT",
+    "BUTTON_4": "LIKE IT",
+    "BUTTON_5": "SHARE"
   }
 }

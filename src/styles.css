@@ -129,3 +129,14 @@ header .mat-select-value{
 .mdl-mini-footer{
   background-color: #1a1a1a !important;
 }
+
+select{
+    padding: 4px 5px;
+    background: #080808;
+    border: 2px solid white;
+    color: white;
+}
+
+select:focus{
+  outline: 0;
+}
