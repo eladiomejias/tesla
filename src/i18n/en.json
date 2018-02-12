@@ -1,6 +1,38 @@
 {
   "HOME": {
     "TITLE": "Hello Angular with ngx-translate!",
+    "TITLE_2": "Beginnings of Tesla, Inc.",
     "SELECT": "Change language"
+  },
+  "HISTORY": {
+    "TITLE": "History",
+    "ARTICLE": "Beginnings of Tesla, Inc.",
+    "CONTENT-1": "The idea of founding a company that commercialized electric cars was born in 2003, when General Motors announced that it would withdraw all the EV1 units and scrapped them.The company AC Propulsion had two teams working on the development of an electric prototype, the T -Zero; In one team were Martin Eberhard, Marc Tarpenning and Ian Wright, and in the other team were Elon Musk and JB Straubel. The goal of creating cars powered by renewable energy seemed unfeasible due to the multiple problems it posed (low autonomy, recharge time, battery prices, lack of infrastructure, and apparent lack of customer appeal, as General Motors stated when it left the market. electric car project).",
+    "CONTENT-2": "Tom Gage, president of AC Propulsion, proposed that both teams join forces if they wanted to give feasibility to their developments, and the duo Elon Musk and JB Straubel went to the trio with the union of Martin Eberhard to found Tesla Motors. Elon Musk had already founded several companies, he was a millionaire and had had the idea of developing batteries for the storage of renewable energy since he studied at Stanford, so they were clear about the goal. Musk would contribute the money necessary to get the idea forward and would be responsible for design, Martin Eberhard was as CEO and JB Straubel was as CTO. The first round of financing raised 7.5 million dollars, most of the pocket of Musk. Other investors were Compass Technology Partners, SDL Ventures and other private investors. In the second round Musk invested 13 million dollars.",
+    "CONTENT-3": "In the early years Eberhard held the reins of business, while Musk supervised the design of the car and Straubel the mechanics of the vehicle.10 Thus they brought forward the first prototype called Tesla Roadster, a prototype based on the Lotus Elise. The Tesla differed from the latter in motorization, and in Musk's personal insistence that the bodywork would have to be made of carbon fiber instead of fiberglass like that of Lotus Elise In May 2006 in the third round of 40 million dollars Musk invested along with other investors attracted by the ideas of the company.",
+    "CONTENT-4": "The objective was to demonstrate that the electric vehicle could compete with the best sports brands, and with the funds obtained from the sale of the first car they would develop affordable vehicles.12 13 In August 2006, they published on their website the plan they wanted: design a high performance sports car In October of that year they received the Global Green 2006 prize in an act chaired by Mikhail Gorbachev for the design of the Tesla Roadster, 14 recognized again in 2007 with the Index Design award. In May 2007 the fourth round added another 45 million dollars accumulating a total of 105 million dollars in investments.",
+    "CONTENT-5": "The main influence for the creation of the Tesla brand was the scientist Nikola Tesla, who was an inventor, mechanical, electrical and physical engineer of Serbian origin, he is known above all for his numerous inventions in the field of electromagnetism, developed to late nineteenth and early twentieth century. The Tesla patents and their theoretical work helped to forge the foundations of modern systems for the use of electric power by alternating current (AC), including the polyphase system of electrical distribution and the AC motor, which contributed to the emergence of the Second Industrial Revolution.",
+    "CONTENT-6": "The last two years had shown that they were serious, but the executive situation was not stable due to economic problems. One of the first investors at Tesla, the Flextronics CEO named Michael Marks, was temporarily CEO of Tesla Motors to try to solve the situation, being replaced in December 2007 by Ze'ev Drori, founder of an electronics company. Eberhard and a dozen top-level executives were dismissed in January 2008.18 Tesla was forced to reduce the workforce by 10% because spending in 2007 was out of control. The fifth round of financing in February 2008 added another 40 million dollars. Of the 145 million dollars that the company had received, 74 million came from Elon Musk., So in October 2008 Musk took over as CEO and Ze'ev Drori became vice president until he left the company in December. 17 The delay in the Model S caused the dismissal of a quarter of the employees and the closure of the engineering office in Michigan Darryl Siry, Sales Director of Tesla, resigned saying he was uncomfortable with the way the company financed its operations depending on the reserve deposits for the Model S. He said he felt that the company was chronically underfinanced and undercapitalized.",
+    "CONTENT-7": "When the situation was worse, Daimler AG acquired almost 10% of the shares of Tesla Motors for an amount of about 50 million dollars in May 2009. Tesla Motors and Daimler AG agreed to cooperate in battery systems, propulsion for electric vehicles and vehicle projects. As part of the collaboration, Prof. Herbert Kohler, Vice President of E-Drive and Future Mobility at Daimler AG, had a seat on the board of directors of Tesla.19 In July 2009, AABAR AD purchased from Daimler AG 40% of the the shares I had from Tesla Motors.",
+    "CONTENT-8": "The famous Tesla T of its logo refers to a cross section of an induction motor. The difference between the magnetic field of the different motor coils is what creates the movement. The figure represents the moment in which this movement is generated thanks to electricity, the main objective of the company.",
+    "CONTENT-9": "In June 2009, the US Department of Energy approved the delivery of a $ 465 million loan, which was part of an $ 8 billion program for advanced vehicle technologies. The low-interest loan was part of the Advanced Technology Vehicles Manufacturing Loan Program (ATVM), created in 2007 during George W. Bush's term to boost the most efficient vehicles and reduce dependence on foreign oil. of Tesla Motors. The loan was aimed at the engineering and production of the Model S and the development of electrical technology that Tesla sells to other manufacturers In September 2009 Tesla announced another round of financing of 82.5 million dollars in which they invested Daimler AG, Fjord Capital Partners, Aabar among others. It was the first round of funding in which Elon Musk did not contribute. To date, a total of 783.5 million dollars had been invested in the company.",
+    "CONTENT-10": "On July 11, Tesla Motors signed a production contract with Lotus Cars to produce gliders (complete cars without batteries, engine or electric propulsion components) for Tesla. The production contract was extended to keep the Roadster in production until December 2011 with a minimum number of 2,400 units."
+  },
+  "NAVBAR": {
+    "ONE": "INDEX",
+    "TWO": "MODELS",
+    "THREE": "CARS",
+    "FOUR": "HISTORY"
+  },
+  "FOOTER": {
+    "ONE": "Index",
+    "TWO": "Buy Guide",
+    "THREE": "Help & People",
+    "FOUR": "Models",
+    "FIVE": "History",
+    "SIX": "Our Brand"
+  },
+  "EXTRAS": {
+    "BUTTON": "MORE INFORMATION"
   }
 }

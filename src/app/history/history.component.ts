@@ -17,17 +17,22 @@ export class HistoryComponent implements OnInit{
   constructor(private translate: TranslateService, private appService: LangService) {
 
   // Gettings an array of lang
-  translate.addLangs(appService.getArray());
+/*  translate.addLangs(appService.getArray());
 
   // Default Language when is not locally
   translate.setDefaultLang("es");
 
   // Using language
-  translate.use("es");
+  translate.use(appService.getValue());
 
   // Default
-  let browserLang = translate.getBrowserLang();
-  translate.use(browserLang.match(/es|en/) ? browserLang : 'es');
+  let browserLang = translate.getBrowserLang();*/
+
+  // For another purpose
+
+  /*
+  translate.use(browserLang.match(/en/) ? browserLang : 'es');
+  */
 
  }
 

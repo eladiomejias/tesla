@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { LangService } from '../shared/lang.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,12 +9,12 @@ import { Component, OnInit } from '@angular/core';
     <div class="mdl-mini-footer__left-section">
       <div class="mdl-logo">Tesla Motors Inc.</div>
       <ul class="mdl-mini-footer__link-list">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Compra</a></li>
-        <li><a href="#">Ayuda</a></li>
-        <li><a href="#">Modelos</a></li>
-        <li><a href="#">Historia</a></li>
-        <li><a href="#">Marca</a></li>
+        <li><a href="#">{{ 'FOOTER.ONE' | translate }}</a></li>
+        <li><a href="#">{{ 'FOOTER.TWO' | translate }}</a></li>
+        <li><a href="#">{{ 'FOOTER.THREE' | translate }}</a></li>
+        <li><a href="#">{{ 'FOOTER.FOUR' | translate }}</a></li>
+        <li><a href="#">{{ 'FOOTER.FIVE' | translate }}</a></li>
+        <li><a href="#">{{ 'FOOTER.SIX' | translate }}</a></li>
 
       </ul>
     </div>
