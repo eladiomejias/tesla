@@ -35,6 +35,9 @@
   background: #e4060d;
 }
 
+.mat-card-header .mat-card-subtitle:not(:first-child){
+  margin-top: -10px;
+}
 
 .red-divider{
   height: 4px;
