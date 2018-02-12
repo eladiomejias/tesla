@@ -13,6 +13,10 @@ import { Routing } from "./app.route";
 import { HttpModule } from '@angular/http';
 import { UserService } from './news/user.service';
 
+// Language
+import { LangService } from './shared/lang.service';
+
+
 // Angular Material Imports
 import {
   MatAutocompleteModule,
@@ -60,7 +64,7 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateModule, TranslateLoader} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 
-// AoT requires an exported function for factories
+// Function for Translation
 export function HttpLoaderFactory(httpClient: HttpClient) {
     return new TranslateHttpLoader(httpClient, "i18n/", ".json");
 }
@@ -112,6 +116,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     BrowserAnimationsModule,
     Routing,
     HttpModule,
+    HttpClientModule,
     TranslateModule.forRoot({
                                 loader: {
                                   provide: TranslateLoader,
@@ -120,7 +125,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
                                 }
                             })
   ],
-  providers: [],
+  providers: [LangService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

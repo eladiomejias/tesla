@@ -6,6 +6,11 @@
 </div>
 
 <section class="red-divider"></section>
+{{ 'HOME.TITLE' | translate }}
+
+<select #langSelect (change)="translate.use(langSelect.value)">
+         <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+</select>
 
 <div class="mdl-grid extra-padding">
   <div class="mdl-cell mdl-cell--10-col mdl-cell--1-offset-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-cell--0-offset-tablet mdl-cell--0-offset-phone">
