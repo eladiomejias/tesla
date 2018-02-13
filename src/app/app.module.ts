@@ -11,7 +11,6 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { Router } from '@angular/router';
 import { Routing } from "./app.route";
 import { HttpModule } from '@angular/http';
-import { UserService } from './news/user.service';
 
 // Language
 import { LangService } from './shared/lang.service';
