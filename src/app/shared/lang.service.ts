@@ -7,7 +7,7 @@ export class LangService {
   arrayLangs = ["es", "en"];
 
   constructor() {
-    this.valueLang = "es";
+    this.valueLang = 'es';
   }
 
   setValue(val: string){

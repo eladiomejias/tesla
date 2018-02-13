@@ -16,7 +16,7 @@ header .mat-select-value{
 }
 
 .mdl-layout__header-row .mdl-navigation__link, .mdl-layout-title {
-    color: #ccc;
+    color: #a5a5a5;
     transition: all 0.3s ease-in-out;
 }
 
@@ -139,4 +139,17 @@ select{
 
 select:focus{
   outline: 0;
+}
+
+
+.active{
+  color: white !important;
+}
+
+.active:active{
+  outline: 0;
+}
+
+.mat-fab.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+    background-color: #ff0000b8;
 }

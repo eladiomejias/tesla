@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
-
-/*
-import { userData } from "./user.json";
-*/
+import { LangService } from '../shared/lang.service';
 
 @Component({
   selector: 'app-news',
@@ -112,7 +109,8 @@ export class NewsComponent implements OnInit{
       }
   ];
 
-  constructor() {}
+  constructor() {
+  }
 
   ngOnInit() {
   }
