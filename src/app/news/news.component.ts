@@ -11,6 +11,10 @@ import { LangService } from '../shared/lang.service';
       <h1 id="heading-news">{{ 'NAVBAR.THREE' | translate }}</h1>
     </section>
   </div>
+
+  <div class="red-divider">
+  </div>
+
   <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--7-phone" *ngFor="let user of USER">
       <mat-card class="example-card">
@@ -39,7 +43,7 @@ import { LangService } from '../shared/lang.service';
 })
 export class NewsComponent implements OnInit{
 
-  /* Displaying static data */
+  // Displaying static data 
   USER: any[] = [
       {
           "name" : "Jason",
