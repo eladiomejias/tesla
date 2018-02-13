@@ -5,8 +5,7 @@ import { LangService } from '../shared/lang.service';
 @Component({
   selector: 'app-header',
   template: `
-  <!-- Uses a header that scrolls with the text, rather than staying
-    locked at the top -->
+  <!-- Uses a header that scrolls with the text, rather than staying locked at the top -->
     <div class="mdl-layout mdl-js-layout">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
