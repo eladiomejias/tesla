@@ -15,7 +15,6 @@ import { HttpModule } from '@angular/http';
 // Language
 import { LangService } from './shared/lang.service';
 
-
 // Angular Material Imports
 import {
   MatAutocompleteModule,

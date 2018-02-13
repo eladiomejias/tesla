@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 
+// Service to control data
 @Injectable()
 export class LangService {
 

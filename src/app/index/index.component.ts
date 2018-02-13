@@ -11,11 +11,7 @@ import { FooterComponent } from '../footer/footer.component';
 })
 export class IndexComponent implements OnInit {
 
-  constructor() {
-
-
-  }
-
+  constructor() {}
 
   ngOnInit() {
   }
