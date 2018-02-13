@@ -43,7 +43,7 @@ import { LangService } from '../shared/lang.service';
 })
 export class NewsComponent implements OnInit{
 
-  // Displaying static data 
+  // Displaying static data
   USER: any[] = [
       {
           "name" : "Jason",
@@ -54,7 +54,7 @@ export class NewsComponent implements OnInit{
           "card_title": "Tesla, Inc. El futuro.",
           "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "24",
-          "gender" : "male"
+          "gender" : "m"
       },
       {
           "name" : "Kyle",
@@ -65,7 +65,7 @@ export class NewsComponent implements OnInit{
           "title": "Tesla Production",
           "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "24",
-          "gender" : "male"
+          "gender" : "m"
       },
       {
           "name" : "Nick",
@@ -76,7 +76,7 @@ export class NewsComponent implements OnInit{
           "title": "Electric Engineer / Manager",
           "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "23",
-          "gender" : "male"
+          "gender" : "m"
       },
       {
           "name" : "Rob",
@@ -87,7 +87,7 @@ export class NewsComponent implements OnInit{
           "title": "Production Director",
           "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "23",
-          "gender" : "female"
+          "gender" : "f"
       },
       {
           "name" : "Addy",
@@ -98,7 +98,7 @@ export class NewsComponent implements OnInit{
           "title": "Internal Creator",
           "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "23",
-          "gender" : "male"
+          "gender" : "m"
       },
       {
           "name" : "Eva",
@@ -109,7 +109,7 @@ export class NewsComponent implements OnInit{
           "title": "Process Observer",
           "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. ",
           "age" : "23",
-          "gender" : "female"
+          "gender" : "f"
       }
   ];
 
