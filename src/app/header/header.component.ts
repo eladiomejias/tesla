@@ -21,7 +21,7 @@ import { LangService } from '../shared/lang.service';
             <a class="mdl-navigation__link" href="" [routerLink]="['news']">{{ 'NAVBAR.THREE' | translate  | uppercase}}</a>
             <a class="mdl-navigation__link" href="" [routerLink]="['history']">{{ 'NAVBAR.FOUR' | translate | uppercase }}</a>
             <select #langSelect (change)="translate.use(langSelect.value)">
-                     <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang | uppercase }}</option>
+            <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang | uppercase }}</option>
             </select>
           </nav>
         </div>
@@ -45,10 +45,7 @@ import { LangService } from '../shared/lang.service';
 })
 export class HeaderComponent implements OnInit {
 
-  option1 = 1;
-
     constructor(private translate: TranslateService, private appService: LangService) {
-
       // Gettings an array of lang
       translate.addLangs(appService.getArray());
 
@@ -57,10 +54,6 @@ export class HeaderComponent implements OnInit {
 
       // Using language
       translate.use(appService.getValue());
-
-      // Default
-      let browserLang = translate.getBrowserLang();
-
   }
 
   ngOnInit() {

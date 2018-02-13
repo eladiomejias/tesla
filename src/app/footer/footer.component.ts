@@ -15,7 +15,6 @@ import { LangService } from '../shared/lang.service';
         <li><a href="#">{{ 'FOOTER.FOUR' | translate }}</a></li>
         <li><a href="#">{{ 'FOOTER.FIVE' | translate }}</a></li>
         <li><a href="#">{{ 'FOOTER.SIX' | translate }}</a></li>
-
       </ul>
     </div>
   </footer>
@@ -23,8 +22,6 @@ import { LangService } from '../shared/lang.service';
   styles: ['']
 })
 export class FooterComponent implements OnInit {
-
-  title = "footer";
 
   constructor() { }
 
