@@ -16,6 +16,15 @@ import { LangService } from '../shared/lang.service';
   </div>
 
   <div class="mdl-grid">
+
+  <mat-card class="mdl-cell mdl-cell--3-col-desktop mdl-cell--7-phone">
+    <h2 class="mat-h2">Posted last: </h2>
+    <div *ngFor="let user of USER" mat-card-avatar class="card-image card-news" [ngStyle]="{'background-image': 'url(' + user.profile_img +')', 'background-size': 'cover'}"></div>
+  </mat-card>
+
+  </div>
+
+  <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--7-phone" *ngFor="let user of USER">
       <mat-card class="example-card">
         <mat-card-header>

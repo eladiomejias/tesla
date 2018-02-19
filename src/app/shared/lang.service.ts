@@ -23,4 +23,5 @@ export class LangService {
     return this.arrayLangs;
   }
 
+
 }

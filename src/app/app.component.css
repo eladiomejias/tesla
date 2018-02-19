@@ -205,3 +205,7 @@ section, div{
         -ms-filter: grayscale(0%);
             filter: grayscale(0%);
 }
+
+.mdl-cell{
+  margin: 3px;
+}

@@ -16,11 +16,11 @@ import { LangService } from '../shared/lang.service';
           <!-- Navigation -->
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" [routerLink]="['']" href="">{{ 'NAVBAR.ONE' | translate | uppercase }}</a>
-            <a class="mdl-navigation__link" href="" [routerLink]="['models']">{{ 'NAVBAR.TWO' | translate | uppercase }}</a>
+            <a class="mdl-navigation__link" href="" [routerLink]="['models']" [class.incrementFont]="increment">{{ 'NAVBAR.TWO' | translate | uppercase }}</a>
             <a class="mdl-navigation__link" href="" [routerLink]="['news']">{{ 'NAVBAR.THREE' | translate  | uppercase}}</a>
             <a class="mdl-navigation__link" href="" [routerLink]="['history']">{{ 'NAVBAR.FOUR' | translate | uppercase }}</a>
             <select #langSelect (change)="translate.use(langSelect.value)">
-            <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang | uppercase }}</option>
+              <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang | uppercase }}</option>
             </select>
           </nav>
         </div>
@@ -40,9 +40,11 @@ import { LangService } from '../shared/lang.service';
     </div>
 
   `,
-  styles: ['header { background: rgba(0,0,0,.97); } .tesla_title{ font-weight: 500; font-size: 1.2em; letter-spacing: 11px; } .mdl-layout__drawer-button { color: white !important; }']
+  styles: ['header { background: rgba(0,0,0,.97); } .tesla_title{ font-weight: 500; font-size: 1.2em; letter-spacing: 11px; } .mdl-layout__drawer-button { color: white !important; } .incrementFont { font-size: 3em !important; }']
 })
 export class HeaderComponent implements OnInit {
+
+    increment;
 
     constructor(private translate: TranslateService, private appService: LangService) {
       // Gettings an array of lang
@@ -58,6 +60,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-}
+  changeFontSize(){
+  }
 
-console.log(window.location.href);
+
+}

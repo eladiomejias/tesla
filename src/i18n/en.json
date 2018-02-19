@@ -37,8 +37,9 @@
   },
   "INDEX_CARDS": {
     "TITLE_1": "Tesla Introduction",
-    "TITLE_2": "Tesla Motors Conference",
-    "TITLE_3": "TESLA Exposition"
+    "TITLE_2": "Tesla Motors - Only Conference",
+    "TITLE_3": "Tesla Exposition & Press Conference",
+    "NAME": "Event"
   },
   "CARDS": {
     "TITLE_1": "Tesla, Inc. The future.",
@@ -67,6 +68,10 @@
     "BUTTON_2": "ADD TO CALENDAR",
     "BUTTON_3": "GO TO EVENT",
     "BUTTON_4": "LIKE IT",
-    "BUTTON_5": "SHARE"
+    "BUTTON_5": "SHARE",
+    "CARD_INDEX": "Our fabric",
+    "CARD_CONTENT": "READ MORE",
+    "CARD_INDEX_2": "Tesla Beginnings",
+    "CARD_CONTENT2": "READ MORE"
   }
 }

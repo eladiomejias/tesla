@@ -46,7 +46,8 @@
   "INDEX_CARDS": {
     "TITLE_1": "Introducción Tesla",
     "TITLE_2": "Conferencia Tesla Motors",
-    "TITLE_3": "Exposición Tesla"
+    "TITLE_3": "Exposición y Conferencia de Tesla",
+    "NAME": "Evento"
   },
   "NAVBAR": {
     "ONE": "Inicio",
@@ -67,6 +68,10 @@
     "BUTTON_2": "AGREGAR AL CALENDARIO",
     "BUTTON_3": "ASISTIR AL EVENTO",
     "BUTTON_4": "ME GUSTA",
-    "BUTTON_5": "COMPARTIR"
+    "BUTTON_5": "COMPARTIR",
+    "CARD_INDEX": "Nuestra fabrica y produccion",
+    "CARD_CONTENT": "VER MAS",
+    "CARD_INDEX_2": "Inicios de Tesla",
+    "CARD_CONTENT2": "VER MAS"
   }
 }
