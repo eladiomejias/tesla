@@ -46,7 +46,7 @@ export class HeaderComponent implements OnInit {
 
     increment;
 
-    constructor(private translate: TranslateService, private appService: LangService) {
+    constructor(public translate: TranslateService, public appService: LangService) {
       // Gettings an array of lang
       translate.addLangs(appService.getArray());
 
