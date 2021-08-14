@@ -15,7 +15,7 @@ import { LangService } from '../shared/lang.service';
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" [routerLink]="['']" href="">{{ 'NAVBAR.ONE' | translate | uppercase }}</a>
+            <a class="mdl-navigation__link" [routerLink]="['']" href="">{{ 'NAVBAR.ONE' | translate | uppercase }}</a>
             <a class="mdl-navigation__link" href="" [routerLink]="['models']" [class.incrementFont]="increment">{{ 'NAVBAR.TWO' | translate | uppercase }}</a>
             <a class="mdl-navigation__link" href="" [routerLink]="['news']">{{ 'NAVBAR.THREE' | translate  | uppercase}}</a>
             <a class="mdl-navigation__link" href="" [routerLink]="['history']">{{ 'NAVBAR.FOUR' | translate | uppercase }}</a>
@@ -28,7 +28,7 @@ import { LangService } from '../shared/lang.service';
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">TESLA MOTORS INC.</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" [ngClass]="{'active': actived == 'active-1'}" [routerLink]="['']" href="">{{ 'NAVBAR.ONE' | translate | uppercase }}</a>
+          <a class="mdl-navigation__link" [routerLink]="['']" href="">{{ 'NAVBAR.ONE' | translate | uppercase }}</a>
           <a class="mdl-navigation__link" href="" [routerLink]="['models']">{{ 'NAVBAR.TWO' | translate | uppercase }}</a>
           <a class="mdl-navigation__link" href="" [routerLink]="['news']">{{ 'NAVBAR.THREE' | translate | uppercase }}</a>
           <a class="mdl-navigation__link" href="" [routerLink]="['history']">{{ 'NAVBAR.FOUR' | translate | uppercase }}</a>
